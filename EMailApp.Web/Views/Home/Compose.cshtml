@@ -1,0 +1,168 @@
+﻿@model EMailApp.Common.ViewModel.MailViewModel
+@{
+    ViewData["Title"] = "Compose";
+}
+
+<p class="text-center">Compose</p>
+<div class="toolbar">
+    <div class="btn-group">
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-envelope"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-star"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-star-o"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-bookmark-o"></span>
+        </button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-mail-reply"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-mail-reply-all"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-mail-forward"></span>
+        </button>
+    </div>
+    <button type="button" class="btn btn-light">
+        <span class="fa fa-trash-o"></span>
+    </button>
+    <div class="btn-group">
+        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+            <span class="fa fa-tags"></span>
+            <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">
+                add label <span class="badge badge-danger">
+                    Home
+                </span>
+            </a>
+            <a class="dropdown-item" href="#">add label <span class="badge badge-info"> Job</span></a>
+            <a class="dropdown-item" href="#">
+                add label <span class="badge badge-success">
+                    Clients
+                </span>
+            </a>
+            <a class="dropdown-item" href="#">
+                add label <span class="badge badge-warning">
+                    News
+                </span>
+            </a>
+        </div>
+    </div>
+    <div class="btn-group float-right">
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-chevron-left"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-chevron-right"></span>
+        </button>
+    </div>
+</div>
+<form asp-controller="Home" asp-action="NewMail">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-row mb-3">
+        <label asp-for="From" class="col-2 col-sm-1 col-form-label">From:</label>
+        <div class="col-10 col-sm-11">
+            <input asp-for="From" type="email" class="form-control" placeholder="Type email">
+            <span asp-validation-for="From" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-row mb-3">
+        <label asp-for="To" class="col-2 col-sm-1 col-form-label">To:</label>
+        <div class="col-10 col-sm-11">
+            <input asp-for="To" type="email" class="form-control" id="to" placeholder="Type email">
+            <span asp-validation-for="To" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-row mb-3">
+        <label asp-for="Subject" for="bcc" class="col-2 col-sm-1 col-form-label">Subject:</label>
+        <div class="col-10 col-sm-11">
+            <input asp-for="Subject" type="text" class="form-control" placeholder="Type email">
+            <span asp-validation-for="Subject" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-11 ml-auto">
+            <div class="toolbar" role="toolbar">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-bold"></span>
+                    </button>
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-italic"></span>
+                    </button>
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-underline"></span>
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-align-left"></span>
+                    </button>
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-align-right"></span>
+                    </button>
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-align-center"></span>
+                    </button>
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-align-justify"></span>
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-indent"></span>
+                    </button>
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-outdent"></span>
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-list-ul"></span>
+                    </button>
+                    <button type="button" class="btn btn-light">
+                        <span class="fa fa-list-ol"></span>
+                    </button>
+                </div>
+                <button type="button" class="btn btn-light">
+                    <span class="fa fa-trash-o"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                    <span class="fa fa-paperclip"></span>
+                </button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-tags"></span>
+                        <span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">add label <span class="badge badge-danger"> Home</span></a>
+                        <a class="dropdown-item" href="#">add label <span class="badge badge-info"> Job</span></a>
+                        <a class="dropdown-item" href="#">add label <span class="badge badge-success"> Clients</span></a>
+                        <a class="dropdown-item" href="#">add label <span class="badge badge-warning"> News</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group mt-4">
+                <textarea asp-for="Description" class="form-control" rows="12" placeholder="Click here to reply"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Send</button>
+                <button type="submit"name="response" value="Decline" formaction=@Url.Action("Draft","Home") formmethod="post" class="btn btn-success">Draft</button>
+                <button type="reset" class="btn btn-danger">Discard</button>
+                @*<button asp-action="Index" class="btn btn-danger">Back</button>*@
+            </div>
+        </div>
+    </div>
+</form>
+

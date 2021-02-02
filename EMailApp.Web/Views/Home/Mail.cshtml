@@ -1,0 +1,107 @@
+﻿@model EMailApp.Common.ViewModel.MailViewModel
+
+@{
+    ViewData["Title"] = "Mail";
+}
+
+<div class="toolbar">
+    <div class="btn-group">
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-envelope"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-star"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-star-o"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-bookmark-o"></span>
+        </button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-mail-reply"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-mail-reply-all"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-mail-forward"></span>
+        </button>
+    </div>
+    <button type="button" class="btn btn-light">
+        <span class="fa fa-trash-o"></span>
+    </button>
+    <div class="btn-group">
+        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+            <span class="fa fa-tags"></span>
+            <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">
+                add label <span class="badge badge-danger">
+                    Home
+                </span>
+            </a>
+            <a class="dropdown-item" href="#">add label <span class="badge badge-info"> Job</span></a>
+            <a class="dropdown-item" href="#">
+                add label <span class="badge badge-success">
+                    Clients
+                </span>
+            </a>
+            <a class="dropdown-item" href="#">
+                add label <span class="badge badge-warning">
+                    News
+                </span>
+            </a>
+        </div>
+    </div>
+    <div class="btn-group float-right">
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-chevron-left"></span>
+        </button>
+        <button type="button" class="btn btn-light">
+            <span class="fa fa-chevron-right"></span>
+        </button>
+    </div>
+</div>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.From)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.From)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.To)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.To)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Subject)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

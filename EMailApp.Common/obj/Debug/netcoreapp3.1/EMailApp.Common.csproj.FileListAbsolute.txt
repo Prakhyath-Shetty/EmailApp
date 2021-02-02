@@ -1,0 +1,9 @@
+C:\Prakhyath\Projects\EMailApp\EMailApp.Common\obj\Debug\netcoreapp3.1\EMailApp.Common.AssemblyInfoInputs.cache
+C:\Prakhyath\Projects\EMailApp\EMailApp.Common\obj\Debug\netcoreapp3.1\EMailApp.Common.AssemblyInfo.cs
+C:\Prakhyath\Projects\EMailApp\EMailApp.Common\obj\Debug\netcoreapp3.1\EMailApp.Common.csproj.CoreCompileInputs.cache
+C:\Prakhyath\Projects\EMailApp\EMailApp.Common\bin\Debug\netcoreapp3.1\EMailApp.Common.deps.json
+C:\Prakhyath\Projects\EMailApp\EMailApp.Common\bin\Debug\netcoreapp3.1\EMailApp.Common.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Common\bin\Debug\netcoreapp3.1\EMailApp.Common.pdb
+C:\Prakhyath\Projects\EMailApp\EMailApp.Common\obj\Debug\netcoreapp3.1\EMailApp.Common.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Common\obj\Debug\netcoreapp3.1\EMailApp.Common.pdb
+C:\Prakhyath\Projects\EmailApp\EMailApp.Common\obj\Debug\netcoreapp3.1\EMailApp.Common.csprojAssemblyReference.cache

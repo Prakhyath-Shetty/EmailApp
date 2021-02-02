@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZQDnJemsyrdN7UY5FtrcuPD5prT8nn/fq4FEKYRjcLH+qf3xs972MVIsg3QEXIzPYxP/r2mkg72iY/HILQV21Q==",
+  "success": true,
+  "projectFilePath": "C:\\Prakhyath\\Projects\\New folder\\EmailApp\\EMailApp.Common\\EMailApp.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aykan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

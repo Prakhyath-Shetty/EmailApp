@@ -1,0 +1,9 @@
+C:\Prakhyath\Projects\EMailApp\EMailApp.Database\bin\Debug\EMailApp.Database.dacpac
+C:\Prakhyath\Projects\EMailApp\EMailApp.Database\bin\Debug\EMailApp.Database.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Database\bin\Debug\EMailApp.Database.pdb
+C:\Prakhyath\Projects\EMailApp\EMailApp.Database\obj\Debug\EMailApp.Database.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Database\obj\Debug\EMailApp.Database.pdb
+C:\Prakhyath\Projects\EmailApp\EMailApp.Database\obj\Debug\Model.xml
+C:\Prakhyath\Projects\EmailApp\EMailApp.Database\obj\Debug\refactor.xml
+C:\Prakhyath\Projects\EmailApp\EMailApp.Database\obj\Debug\postdeploy.sql
+C:\Prakhyath\Projects\EmailApp\EMailApp.Database\obj\Debug\predeploy.sql

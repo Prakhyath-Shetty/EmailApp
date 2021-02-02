@@ -1,0 +1,14 @@
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\obj\Debug\netcoreapp3.1\EMailApp.Business.csprojAssemblyReference.cache
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\obj\Debug\netcoreapp3.1\EMailApp.Business.AssemblyInfoInputs.cache
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\obj\Debug\netcoreapp3.1\EMailApp.Business.AssemblyInfo.cs
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\obj\Debug\netcoreapp3.1\EMailApp.Business.csproj.CoreCompileInputs.cache
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\bin\Debug\netcoreapp3.1\EMailApp.Business.deps.json
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\bin\Debug\netcoreapp3.1\EMailApp.Business.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\bin\Debug\netcoreapp3.1\EMailApp.Business.pdb
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\bin\Debug\netcoreapp3.1\EMailApp.Common.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\bin\Debug\netcoreapp3.1\EMailApp.Repository.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\bin\Debug\netcoreapp3.1\EMailApp.Common.pdb
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\bin\Debug\netcoreapp3.1\EMailApp.Repository.pdb
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\obj\Debug\netcoreapp3.1\EMailApp.Business.csproj.CopyComplete
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\obj\Debug\netcoreapp3.1\EMailApp.Business.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Business\obj\Debug\netcoreapp3.1\EMailApp.Business.pdb

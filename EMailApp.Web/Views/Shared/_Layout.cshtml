@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EMail App</title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/mail.css" />
+</head>
+<body>
+    <div class="">
+        <div class="email-app mb-4">
+            <nav>
+                @Html.ActionLink("New Email", "Compose", "Home", null, new { @class = "btn btn-danger btn-block" })
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href=@Url.Action("Index","Home")><i class="fa fa-inbox"></i>Inbox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=@Url.Action("Sent","Home")><i class="fa fa-rocket"></i> Sent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=@Url.Action("Draft","Home")><i class="fa fa-star"></i> Draft</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=@Url.Action("Trash","Home")><i class="fa fa-trash-o"></i> Trash</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=@Url.Action("Logout","User")><i class="fa fa-user"></i> Logout</a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="inbox">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

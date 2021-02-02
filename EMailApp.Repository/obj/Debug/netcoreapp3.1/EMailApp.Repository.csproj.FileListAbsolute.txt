@@ -1,0 +1,15 @@
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\obj\Debug\netcoreapp3.1\EMailApp.Repository.csprojAssemblyReference.cache
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\obj\Debug\netcoreapp3.1\EMailApp.Repository.AssemblyInfoInputs.cache
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\obj\Debug\netcoreapp3.1\EMailApp.Repository.AssemblyInfo.cs
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\obj\Debug\netcoreapp3.1\EMailApp.Repository.csproj.CoreCompileInputs.cache
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\bin\Debug\netcoreapp3.1\EMailApp.Repository.deps.json
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\bin\Debug\netcoreapp3.1\EMailApp.Repository.runtimeconfig.json
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\bin\Debug\netcoreapp3.1\EMailApp.Repository.runtimeconfig.dev.json
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\bin\Debug\netcoreapp3.1\EMailApp.Repository.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\bin\Debug\netcoreapp3.1\EMailApp.Repository.pdb
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\bin\Debug\netcoreapp3.1\EMailApp.Common.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\bin\Debug\netcoreapp3.1\EMailApp.Common.pdb
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\obj\Debug\netcoreapp3.1\EMailApp.Repository.csproj.CopyComplete
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\obj\Debug\netcoreapp3.1\EMailApp.Repository.dll
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\obj\Debug\netcoreapp3.1\EMailApp.Repository.pdb
+C:\Prakhyath\Projects\EMailApp\EMailApp.Repository\obj\Debug\netcoreapp3.1\EMailApp.Repository.genruntimeconfig.cache
